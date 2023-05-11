@@ -10,8 +10,11 @@ Es el lenguaje que entiende la maquina, es decir, el lenguaje binario.
 Es el lenguaje que entiende el programador, es decir, el lenguaje que se escribe.
 ### Nivel de JAVA
 JAVA es un lenguaje de alto nivel, pero a su vez es un lenguaje de bajo nivel, ya que el codigo JAVA se compila a un lenguaje intermedio llamado BYTECODE, el cual es interpretado por la JVM (Java Virtual Machine) y este a su vez es compilado a lenguaje maquina.
-## Categorias de JAVA
+### Categorias de JAVA
 1. JAVA SE (Standard Edition): Es la categoria estandar de JAVA, es decir, la categoria basica de JAVA.
 2. JAVA EE (Enterprise Edition): Es la categoria empresarial de JAVA, es decir, la categoria que se utiliza para desarrollar aplicaciones empresariales.
-
 **"WORA (Write Once, Run Anywhere)"**
+# JDK (Java Development Kit)
+1. JAVA RUNTIME ENVIRONMENT (JRE).
+2. COMPILADOR DE JAVA (javac).
+3. API DE DESARROLLO (java).
