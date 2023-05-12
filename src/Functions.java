@@ -6,6 +6,8 @@ public class Functions {
 
         double sphere = sphereArea(area);
         System.out.println(sphere);
+        System.out.println("This code is unreachable");
+        System.out.println("This code is unreachable");
 
         System.out.println(convertToDollar(1000, "MXN"));
     }
@@ -15,10 +17,17 @@ public class Functions {
 
     public static double sphereArea(double radio) {
         return 4 * Math.PI * Math.pow(radio, 2);
+
     }
 
+    /**
+     * Description: This function converts a quantity of money to dollars
+     *
+     * @param quantity quantity of money
+     * @param currency currency type: MXN or COP
+     * @return quantity of money converted to dollars
+     * */
     public static double convertToDollar(double quantity, String currency) {
-        // MXN COP
         switch (currency) {
             case "MXN":
                 quantity = quantity * 0.052;
